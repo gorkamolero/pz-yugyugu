@@ -2,7 +2,7 @@
   <div id="email-builder">
     <div class="left-panel" v-bar>
       <div class="inner-panel">
-        <h1>Builder</h1>
+        <Control />
       </div>
     </div>
 
@@ -16,8 +16,10 @@
 
 <script>
 import Preview from '@/components/Preview'
+import Control from '@/components/Control'
+
 export default {
-  components: { Preview }
+  components: { Preview, Control }
 }
 </script>
 

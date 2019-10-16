@@ -3,7 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import Vuebar from 'vuebar'
-import vuetify from './plugins/vuetify';
+import vuetify from './plugins/vuetify'
+
 Vue.use(Vuebar)
 
 Vue.config.productionTip = false
