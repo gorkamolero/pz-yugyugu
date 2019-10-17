@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Preview from '@/components/Preview'
-import Control from '@/components/Control'
+import Preview from '@/components/preview/Preview'
+import Control from '@/components/control/Control'
 
 export default {
   components: { Preview, Control }

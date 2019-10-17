@@ -5,8 +5,7 @@
 </template>
 
 <script>
-import '@/styles/modern-normalize.css'
-import '@/styles/vuebar.scss'
+import '@/styles/app.scss'
 
 export default {
 
@@ -16,6 +15,7 @@ export default {
 <style lang="scss">
   #pz-email-builder {
     font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, .75);
     height: 100vh;
     background: whitesmoke;
     padding: 2rem;
